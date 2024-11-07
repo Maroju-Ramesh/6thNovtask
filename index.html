@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map tag</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (max-width: 500px){
+        img{
+            height: 200px;
+        }
+        h1{
+            font-size: 10px;
+        }
+       
+    }
+</style>
+<body>
+    
+    <h1>Click on rectangale or circle or pentagon to check map tag working.</h1>
+    <br><br>
+    <img src="./pic7.jpg" usemap="#worldmap" alt="">
+    <map name="worldmap">
+        <area target="" alt="" title="" href="https://www.google.com/" coords="48,165,135,294" shape="rect">
+        <area target="" alt="" title="" href="https://www.w3schools.com/tags/tag_map.asp" coords="48,165,156" shape="circle">
+        <area target="" alt="" title="" href="https://www.w3schools.com/tags/tag_map.asp" coords="414,231,64" shape="circle">
+        
+    <area target="" alt="" title="" href="https://www.google.com/search?q=map+tag+polygon+code%27&sca_esv=f58891cc94206bbf&udm=2&biw=1366&bih=633&ei=hTQsZ_D1MOu3vr0PyeLe0Q0&ved=0ahUKEwiwzLqjpMmJAxXrm68BHUmxN9oQ4dUDCBA&uact=5&oq=map+tag+polygon+code%27&gs_lp=EgNpbWciFW1hcCB0YWcgcG9seWdvbiBjb2RlJ0jqCVCSAVjmCXABeACQAQCYAZkBoAGmBaoBAzAuNbgBA8gBAPgBAZgCAKACAJgDAIgGAZIHAKAH4QE&sclient=img" coords="415,341,346,388,372,463,453,465,483,386" shape="poly">        
+    </map>
+    
+</body>
+</html>
